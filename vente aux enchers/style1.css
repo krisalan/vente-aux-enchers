@@ -1,0 +1,63 @@
+body{
+padding: 0;
+margin: 0;
+background-color: rgb(252, 249, 249);
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 10px ;
+    font-size: 1.5rem;
+    color: rgb(39, 211, 211);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-shadow: -8px 0px 9px rgb(65, 227, 65);
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 10px ;
+    font-size: 0.9rem;
+    color: rgb(39, 211, 211);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-shadow: -8px 0px 9px rgb(65, 227, 65);
+}
+.flexbox {
+    background-color: rgba(11, 209, 227, 0.634);
+    border: 5px solid rgba(11, 227, 61, 0.634);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: space-between;
+    justify-items: end;
+    margin: 130px;
+    margin-bottom: 150px;
+    margin-top: 120px;
+}
+form{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+}
+input,textarea{
+    margin: 5px;
+    height: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+textarea{
+    height: 35px;
+    width: 250px;
+}
+.logo{
+    width: 100%;
+    border-radius: 20px;
+}
+.submit{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: skyblue;
+}
